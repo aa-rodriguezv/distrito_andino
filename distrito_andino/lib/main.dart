@@ -40,7 +40,7 @@ class MyHomePage extends StatelessWidget {
                   color: Colors.blue[900],
                   child: Text(
                     "RECORRIDOS, PLACA: 'YYY-777'",
-                    style: TextStyle(color: Colors.grey[300]),
+                    style: TextStyle(color: Colors.grey[300]), textAlign: TextAlign.center,
                   ),
                   elevation: 5,
                 ),
