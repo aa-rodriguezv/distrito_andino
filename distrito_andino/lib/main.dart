@@ -39,7 +39,7 @@ class MyHomePage extends StatelessWidget {
                 child: Card(
                   color: Colors.blue[900],
                   child: Text(
-                    'RECORRIDOS',
+                    "RECORRIDOS, PLACA: 'YYY-777'",
                     style: TextStyle(color: Colors.grey[300]),
                   ),
                   elevation: 5,

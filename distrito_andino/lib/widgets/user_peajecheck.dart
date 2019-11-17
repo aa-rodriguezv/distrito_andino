@@ -23,11 +23,15 @@ class _UserTransactionsState extends State<UserTransactions> {
 
   Transportador tTT = new Transportador(placaVehiculo: "YYY-777");
 
-  Peaje p1 = new Peaje(codigo: 1, nombre: "Quebrada Blanca");
+  Peaje p1 = new Peaje(codigo: 3938, nombre: "Mata de Caña");
 
-  Peaje p2 = new Peaje(codigo: 2, nombre: "Guayabetal");
+  Peaje p2 = new Peaje(codigo: 3934, nombre: "Caimanera");
 
-  Peaje p3 = new Peaje(codigo: 3, nombre: "Caqueta");
+  Peaje p3 = new Peaje(codigo: 3820, nombre: "San Onofre");
+
+  Peaje p4 = new Peaje(codigo: 3917, nombre: "Gambote");
+
+  Peaje p5 = new Peaje(codigo: 4000, nombre: "PasaCaballos");
 
 
   Vigilancia vig = new Vigilancia();
@@ -36,7 +40,7 @@ class _UserTransactionsState extends State<UserTransactions> {
 
     tTT.salvoConductosExpedidos.add(s1);
 
-    List<Peaje> peajes = [p1, p2, p3];
+    List<Peaje> peajes = [p1, p2, p3, p4, p5];
 
     Ruta rut = new Ruta(peajesNecesarios: peajes, coordenadasFinales: [-77, 55], coordenadasInicio: [-75, 48]);
 
